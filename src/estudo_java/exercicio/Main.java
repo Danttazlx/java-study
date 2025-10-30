@@ -1,4 +1,4 @@
-package estudo_java.promocoesJava;
+package estudo_java.exercicio;
 
 public class Main {
     public static void main(String[] args) {

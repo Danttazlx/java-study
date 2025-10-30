@@ -1,6 +1,6 @@
-package Operadores.operadoresDeAtribuicao;
+package estudo_java.Operadores.operadoresDeAtribuicao;
 
-public class main {
+public class OperadoresAtribuicao {
 
     public static void main(String[] args) {
 

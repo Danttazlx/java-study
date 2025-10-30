@@ -1,4 +1,4 @@
-package Operadores.operadoresDeAtribuicao;
+package estudo_java.Operadores.operadoresDeAtribuicao;
 
 public class OperadoresUnarios {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Ex_controledeestoque.operadoresDeAtribuicao;
+package Operadores.operadoresDeAtribuicao;
 
 public class main {
 

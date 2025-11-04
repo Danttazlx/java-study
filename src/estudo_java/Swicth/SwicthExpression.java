@@ -1,5 +1,6 @@
 package estudo_java.Swicth;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class SwicthExpression {
@@ -8,26 +9,19 @@ public class SwicthExpression {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("me diga um  dia da semana: ");
-        int day = scanner.nextInt();
+        String day = scanner.nextLine();
 
+        String tipoDoDia = switch (day) {
+            case "segunda", "terca", "quarta", "quinta", "sexta" -> "dia Utiu";
+            case "sabado", "domingo" -> "final de semanda";
 
-        switch (day) {
+            default -> "invalido!!";
+        };
 
-            case 1 -> System.out.println("segunda");
-            case 2 -> System.out.println("terca");
-            case 3 -> System.out.println("quarta");
-            case 4 -> System.out.println("quinta");
-            case 5 -> System.out.println("sexta");
-            case 6 -> System.out.println("sabado");
-
-            default -> System.out.println("invalido!");
-
-        }
+        System.out.println(tipoDoDia);
         scanner.close();
 
     }
-
-
 
 
 }

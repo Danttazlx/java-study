@@ -2,7 +2,7 @@ package estudo_java.Swicth;
 
 import java.util.Scanner;
 
-public class ExercicioSwicth {
+public class ExercicioSwicth01 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

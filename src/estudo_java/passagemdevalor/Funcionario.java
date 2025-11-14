@@ -22,11 +22,10 @@ public class Funcionario {
     }
 
 
-
-    public void reajuste(double valor){
-         var valorTotal = salario += valor;
-
-        System.out.println("valorTotal: " + valorTotal);
+    public void auterarSalario(Funcionario func, double novoSalario){
+        salario += novoSalario;
+        novoSalario += 1000;    // quando modificamos dentro do metodo nao modifica fora
+ 
     }
 
 

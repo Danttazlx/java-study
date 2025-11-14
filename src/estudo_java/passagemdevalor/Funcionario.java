@@ -22,7 +22,7 @@ public class Funcionario {
     }
 
 
-    public void auterarSalario(Funcionario func, double novoSalario){
+    public void auterarSalario( double novoSalario){
         salario += novoSalario;
         novoSalario += 1000;    // quando modificamos dentro do metodo nao modifica fora
  

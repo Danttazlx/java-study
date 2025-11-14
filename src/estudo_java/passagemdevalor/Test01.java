@@ -8,6 +8,8 @@ public class Test01 {
         funcionario.imprime();
         funcionario.reajuste(250);
 
+        funcionario.auterarSalario(funcionario, 8000.00);
+        funcionario.imprime();
 
     }
 }

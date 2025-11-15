@@ -1,4 +1,6 @@
-package estudo_java.membrostatic;
+package estudo_java.membrostatic.test;
+
+import estudo_java.membrostatic.domain.Calculdora;
 
 public class Test {
     public static void main(String[] args) {

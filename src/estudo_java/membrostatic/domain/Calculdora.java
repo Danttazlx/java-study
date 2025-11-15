@@ -1,4 +1,4 @@
-package estudo_java.membrostatic;
+package estudo_java.membrostatic.domain;
 
 public class Calculdora {
 

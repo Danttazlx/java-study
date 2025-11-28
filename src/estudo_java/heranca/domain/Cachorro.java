@@ -8,8 +8,8 @@ public class Cachorro extends  Animal{
 
 
     public void latir(){
-
-        System.out.println("latindo");
+      super.fazerSom();
+        System.out.print("latindo");
 
     }
 

@@ -11,6 +11,10 @@ public class Animal {
         this.tipo = tipo;
     }
 
+    public void fazerSom(){
+        System.out.println("fazendo um som: ");
+    }
+
 
     public  void come(){
 

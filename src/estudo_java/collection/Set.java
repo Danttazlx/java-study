@@ -2,10 +2,10 @@ package estudo_java.collection;
 
 import java.util.*;
 
-public class SetEstudo {
+public class Set {
     public static void main(String[] args) {
 
-        Set<String> nomes = new HashSet<>();
+        java.util.Set<String> nomes = new HashSet<>();
 
         nomes.add("");
         nomes.add("");

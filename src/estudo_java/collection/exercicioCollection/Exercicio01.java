@@ -8,10 +8,10 @@ public class Exercicio01 {
         // lista aceita duplicatas
         List<String> lista = new ArrayList<>();
 
-        lista.add("dantas");
-        lista.add("Dantas");
-        lista.add("joaquim");
-        lista.remove("dantas");
+        lista.add("");
+        lista.add("");
+        lista.add("");
+        lista.remove("");
 
         System.out.println(lista);
 
@@ -20,8 +20,8 @@ public class Exercicio01 {
         // map chave, valor
         Map<Integer, String> map = new HashMap<>();
 
-        map.put(1,"Dantas");
-        map.put(2,"Eloah");
+        map.put(1,"");
+        map.put(2,"");
 
         System.out.println(map.get(2));
 
@@ -31,8 +31,8 @@ public class Exercicio01 {
 
         Set<String> set = new HashSet<>();
 
-        set.add("oi");
-        set.add("vz");
+        set.add("");
+        set.add("");
         System.out.println(set);
         set.clear();
         System.out.println(set);

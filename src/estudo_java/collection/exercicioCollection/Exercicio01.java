@@ -16,6 +16,7 @@ public class Exercicio01 {
 
         System.out.println("========================");
 
+        // map chave, valor
         Map<Integer, String> map = new HashMap<>();
 
         map.put(1,"Dantas");
@@ -26,7 +27,7 @@ public class Exercicio01 {
         System.out.println("==================");
 
         // nao aceita duplicatas
-        
+
         Set<String> set = new HashSet<>();
 
         set.add("oi");

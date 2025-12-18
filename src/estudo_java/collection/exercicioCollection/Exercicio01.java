@@ -5,6 +5,7 @@ import java.util.*;
 public class Exercicio01 {
     public static void main(String[] args) {
 
+        // lista aceita duplicatas
         List<String> lista = new ArrayList<>();
 
         lista.add("dantas");

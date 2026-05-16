@@ -22,6 +22,7 @@ public class Main {
             if (!name.equals(nameDB) || !password.equals(passwordDB))
                 throw new LoginInvalidException("name or password invalid");
         }
+        System.out.println("Obrigado!");
     }
 
 }
